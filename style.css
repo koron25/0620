@@ -1,0 +1,84 @@
+body {
+    color: #000000;
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content:  space-between;
+}
+header h1 {
+    margin: 20px 300px;
+    font-size: 34px;
+    border: solid 3px #000000;
+}
+header nav {
+    margin: 20px 300px;
+    display: flex;
+    font-size: 34px;
+ }
+ header a {
+    text-decoration: none;
+    margin-right: 20px;
+ }
+ 
+#main-photo {
+    width: 100%;
+}
+#about {
+    height: 400px;
+    padding: 30px 100px;
+}
+#about h2 {
+    text-align: center;
+}
+#about h3 {
+    font-size: 24px;
+}
+#about li {
+    font-size: 18px;
+}
+#about img {
+    float: left;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+#about > div {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+#about-left {
+    text-align: center;
+}
+li {
+    text-align: left;
+}
+#Works {
+    text-align: center;
+    padding: 0 100px;
+}
+#works-all {
+    display: flex;  
+}
+#works-all > div {
+    width: 33%;
+    
+}
+#works-left {
+    width: 33%;
+    margin: 10px;
+}
+#works-center {
+    width: 33%;
+    margin: 10px;
+}
+#works-right {
+    width: 33%;
+    margin: 10px;
+}
+.works-photo {
+    width: 100%; 
+}
